@@ -1,0 +1,13 @@
+div.vNav{ background:url(main/nav_bg.jpg); height:27px; position:relative; }
+
+div.vNav div.tab{ margin-left:13px; position:absolute; bottom:0; left:0;}
+
+div.vNav div.tab a{ position:relative;-moz-border-radius:3px 3px 0px 0px; border-radius:3px 3px 0px 0px; display:block; font-weight:bold; height:22px; cursor:pointer;letter-spacing:2px; line-height:22px; vertical-align:middle; color:#9B9696; border-bottom:none;  padding:0px 20px; margin-right:5px; float:left;background:url(main/nav_tab.jpg); }
+
+div.vNav div.tab a.act{ background:#fff; cursor:auto; color:#030406;}
+
+div.vNav div.tab a b{ background:url(main/tab_close.png); width:12px; height:12px; position:absolute; right:4px; top:4px;-moz-border-radius:2px; border-radius:2px;}
+
+div.vNav div.tab a b.on{background:url(main/tab_close_on.png); cursor:pointer;}
+
+div.vNav div.tab a span.loading{ background:url(main/tab_loading.gif); width:10px; height:10px; position:absolute; left:5px; top:5px;}
