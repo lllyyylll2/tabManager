@@ -1,13 +1,62 @@
-div.vNav{ background:url(main/nav_bg.jpg); height:27px; position:relative; }
+div.vNav{
+  height:27px; 
+  position:relative;
+	background: url('data:image/jpg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwMEAwODxAPDgwTExQUExMcGxsbHCAgICAgICAgICD/2wBDAQcHBw0MDRgQEBgaFREVGiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICD/wAARCAAbAAEDAREAAhEBAxEB/8QAFgABAQEAAAAAAAAAAAAAAAAAAwQI/8QAFRABAQAAAAAAAAAAAAAAAAAAABL/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/ANCUAbBPYogf/9k=');
+}
 
-div.vNav div.tab{ margin-left:13px; position:absolute; bottom:0; left:0;}
+div.vNav div.tab{ 
+  margin-left:13px; 
+  position:absolute;
+  bottom:0; 
+  left:0;
+}
 
-div.vNav div.tab a{ position:relative;-moz-border-radius:3px 3px 0px 0px; border-radius:3px 3px 0px 0px; display:block; font-weight:bold; height:22px; cursor:pointer;letter-spacing:2px; line-height:22px; vertical-align:middle; color:#9B9696; border-bottom:none;  padding:0px 20px; margin-right:5px; float:left;background:url(main/nav_tab.jpg); }
+div.vNav div.tab a{ 
+  position:relative;
+  -moz-border-radius:3px 3px 0px 0px; 
+  border-radius:3px 3px 0px 0px; 
+  display:block; 
+  font-weight:bold; 
+  height:22px; 
+  cursor:pointer;
+  letter-spacing:2px; 
+  line-height:22px; 
+  vertical-align:middle; 
+  color:#9B9696; 
+  border-bottom:none;  
+  padding:0px 20px; 
+  margin-right:5px; 
+  float:left;
+  background:url('data:image/jpg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/2wBDAAYEBAQFBAYFBQYJBgUGCQsIBgYICwwKCgsKCgwQDAwMDAwMEAwODxAPDgwTExQUExMcGxsbHCAgICAgICAgICD/2wBDAQcHBw0MDRgQEBgaFREVGiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICD/wAARCAAWAAEDAREAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAABAj/xAAXEAEBAQEAAAAAAAAAAAAAAAAAEwES/8QAFgEAAwAAAAAAAAAAAAAAAAAAAAEC/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8AqGqVA2Mg+tAf/9k=');
+}
 
-div.vNav div.tab a.act{ background:#fff; cursor:auto; color:#030406;}
+div.vNav div.tab a.act{ 
+  background:#fff; 
+  cursor:auto; 
+  color:#030406;
+}
 
-div.vNav div.tab a b{ background:url(main/tab_close.png); width:12px; height:12px; position:absolute; right:4px; top:4px;-moz-border-radius:2px; border-radius:2px;}
+div.vNav div.tab a b{
+  width:12px; 
+  height:12px; 
+  position:absolute; 
+  right:4px; 
+  top:4px;
+  -moz-border-radius:2px; 
+  border-radius:2px;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAAA3NCSVQICAjb4U/gAAAAOVBMVEX///+0s7O0s7O0s7O0s7O0s7O0s7O0s7O0s7P////3+fvy9Pbp6+zc3d7Y2NnMzMy9vL24uLi0s7O//7fCAAAAE3RSTlMAIjNEZpmqu+7/////////////Mg0zOgAAAAlwSFlzAAALEgAACxIB0t1+/AAAABZ0RVh0Q3JlYXRpb24gVGltZQAwNC8xNS8xNP5a76kAAAAcdEVYdFNvZnR3YXJlAEFkb2JlIEZpcmV3b3JrcyBDUzbovLKMAAAAXElEQVQImU1OCQ6AMAjr5i6mY47/P9ZiZmITkh6UACDkZtZyABFJHS3R35wqIttSnVPVrIDBJb3LYAbOLSJ9bbG6yOktX1MmMl1k3xqsmdXfaTuA9Kn0vlCcVvoPDnoG4DvOKWkAAAAASUVORK5CYII=');
+}
 
-div.vNav div.tab a b.on{background:url(main/tab_close_on.png); cursor:pointer;}
+div.vNav div.tab a b.on{
+  cursor:pointer;
+	background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAAA3NCSVQICAjb4U/gAAAAPFBMVEX///83RVU3RVU3RVU3RVU3RVU3RVU3RVU3RVX////v8vXj5+rL0NWmrbWZoaqBipV0f4pQXGpDUWA3RVVQu14YAAAAFHRSTlMAIjNEZpmqu+7//////////////zk+1IEAAAAJcEhZcwAACxIAAAsSAdLdfvwAAAAWdEVYdENyZWF0aW9uIFRpbWUAMDQvMTUvMTT+Wu+pAAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAAF1JREFUCJlNTgkOgCAMKwjCUCay///VzmBikyU91mUAQq5mNQcQkdRRE/3FqSKyTdUxVM12MDilNenMwLlFpM0lZhM5vOVrykQuF9m3Omtm5XfaNiB9Kr0v7E4L/QcjoQco9mKXYgAAAABJRU5ErkJggg==');
+}
 
-div.vNav div.tab a span.loading{ background:url(main/tab_loading.gif); width:10px; height:10px; position:absolute; left:5px; top:5px;}
+div.vNav div.tab a span.loading{
+  width:10px; 
+  height:10px; 
+  position:absolute; 
+  left:5px; 
+  top:5px;
+	background-image: url('data:image/gif;base64,R0lGODlhCgAKAJEDAMzMzP9mZv8AAP///yH/C05FVFNDQVBFMi4wAwEAAAAh+QQFAAADACwAAAAACgAKAAACF5wncgaAGgJzJ647cWua4sOBFEd62VEAACH5BAUAAAMALAEAAAAIAAMAAAIKnBM2IoMDAFMQFAAh+QQFAAADACwAAAAABgAGAAACDJwHMBGofKIRItJYAAAh+QQFAAADACwAAAEAAwAIAAACChxgOBPBvpYQYxYAIfkEBQAAAwAsAAAEAAYABgAAAgoEhmPJHOGgEGwWACH5BAUAAAMALAEABwAIAAMAAAIKBIYjYhOhRHqpAAAh+QQFAAADACwEAAQABgAGAAACDJwncqi7EQYAA0p6CgAh+QQJAAADACwHAAEAAwAIAAACCpRmoxoxvQAYchQAOw==');
+}
