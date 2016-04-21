@@ -3,7 +3,7 @@ tabManager
 
 A simple jquery tab manager,easy to use.
 
-step 1: inluce css.
+step 1: include css.
 --
 	  <link href="tabManager.css" rel="stylesheet" type="text/css" />
 
